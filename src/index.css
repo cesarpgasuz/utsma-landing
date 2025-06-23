@@ -1,1 +1,13 @@
+@import "./styles/fonts.css";
 @import "tailwindcss";
+
+
+@theme {
+  --font-lato: 'Lato', system-ui, sans-serif;
+}
+
+@layer components {
+    .contenedor {
+        @apply w-[90%] sm:w-[80%] mx-auto max-w-5xl;
+    }
+}
