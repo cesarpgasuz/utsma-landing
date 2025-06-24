@@ -4,6 +4,9 @@
 
 @theme {
   --font-lato: 'Lato', system-ui, sans-serif;
+  --color-grisoscuroutsma: #1A232E;
+  --color-cyanutsma: #00E1C6;
+  --color-grisclaroutsma: #EFEFEF;
 }
 
 @layer components {
