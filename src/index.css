@@ -1,1 +1,16 @@
+@import "./styles/fonts.css";
 @import "tailwindcss";
+
+
+@theme {
+  --font-lato: 'Lato', system-ui, sans-serif;
+  --color-grisoscuroutsma: #1A232E;
+  --color-cyanutsma: #00E1C6;
+  --color-grisclaroutsma: #EFEFEF;
+}
+
+@layer components {
+    .contenedor {
+        @apply w-[90%] sm:w-[80%] mx-auto max-w-5xl;
+    }
+}
